@@ -1,0 +1,14 @@
+﻿@page
+@model RectangleModel
+@{
+}
+
+<div>
+    @foreach (var figure in Model.Figures)
+    {
+        <p>Height: @figure.Height</p>
+        <p>Widht: @figure.Width</p>
+        <p>Area: @figure.CalculateArea()</p>
+        <hr />
+    }
+</div>

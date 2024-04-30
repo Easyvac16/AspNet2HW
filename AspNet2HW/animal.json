@@ -1,0 +1,17 @@
+[
+  {
+    "Name": "boopy",
+    "Sound": "Meew",
+    "animalType": 1
+  },
+  {
+    "Name": "Garry",
+    "Sound": "Shhh",
+    "animalType": 2
+  },
+  {
+    "Name": "Arh",
+    "Sound": "mwwe",
+    "animalType": 0
+  }
+]
