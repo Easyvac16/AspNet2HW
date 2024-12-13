@@ -1,0 +1,7 @@
+services:
+  - name: AspNet2HW
+    type: web
+    env: docker
+    buildCommand: "docker build -t azure-chat ."
+    plan: free
+    healthCheckPath: "/"
